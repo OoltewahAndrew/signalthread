@@ -163,3 +163,27 @@ body {
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.75);
 }
+
+/* ======================
+   ALIGNMENT RULES
+====================== */
+
+/* Hero is editorial and grounded */
+.st-hero {
+  text-align: left;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section headers are centered */
+.st-section h2 {
+  text-align: center;
+}
+
+/* Body copy is always readable */
+.st-note,
+.st-process-detail {
+  text-align: left;
+}
+
