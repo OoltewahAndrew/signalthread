@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – Signal Thread</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="st-wrapper">
+    <header class="st-header">
+      <div class="st-container st-header-inner">
+        <a class="brand" href="index.html" aria-label="Signal Thread Home">
+          <div class="mark" aria-hidden="true"></div>
+          <div><span>Signal Thread</span><small>Public safety analytics</small></div>
+        </a>
 
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="how-it-works.html">How It Works</a>
+          <a href="who-we-serve.html">Who We Serve</a>
+          <a href="sample-work.html">Sample Work</a>
+          <a class="active" href="about.html">About</a>
+          <a href="data-security.html">Data Security</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="st-container">
+          <div class="section-head">
+            <h1>About</h1>
+            <div class="faint">Competence over branding</div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card pad">
+              <h2>Operations + Analytics</h2>
+              <p>
+                Signal Thread is built around a simple idea: public safety decisions should be supported by evidence
+                that boards can understand and leadership can defend.
+              </p>
+              <ul class="list">
+                <li>Public safety / EMS-informed perspective</li>
+                <li>Strong data and analytics capability</li>
+                <li>Outputs designed for boards and governance structures</li>
+              </ul>
+            </div>
+
+            <div class="card pad">
+              <h2>What we optimize for</h2>
+              <p>
+                Not “more data.” Not “a dashboard nobody uses.” We optimize for decision-making:
+                clear findings, defensible assumptions, and practical options.
+              </p>
+              <div class="callout">
+                <strong>Guiding principle:</strong> If a township board can’t understand it in a packet,
+                it’s not finished.
+              </div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn primary" href="contact.html">Request a Consultation</a>
+            <a class="btn" href="sample-work.html">See Sample Outputs</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="st-container footer-inner">
+        <div>© <span id="y"></span> Signal Thread</div>
+        <div><a href="contact.html">Contact</a></div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
