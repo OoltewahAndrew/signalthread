@@ -313,3 +313,44 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+/* ======================
+   DISTINCT LINK STYLES
+====================== */
+
+/* Pill button style for nav / call-to-action links */
+.st-btn-pill {
+  display: inline-block;
+  padding: 0.65rem 1.35rem;
+  border-radius: 6px;
+  background: var(--orange);
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  transition: background 0.18s ease, opacity 0.18s ease;
+}
+.st-btn-pill:hover,
+.st-btn-pill:focus {
+  background: rgba(255, 106, 40, 0.85);
+  opacity: 0.9;
+}
+
+/* Soft sidebar / footer link style */
+.st-link-card {
+  display: block;
+  margin: 0.75rem 0;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.95rem;
+  transition: background 0.18s ease;
+}
+.st-link-card:hover,
+.st-link-card:focus {
+  background: rgba(255, 255, 255, 0.10);
+}
+
