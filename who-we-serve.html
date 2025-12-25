@@ -1,114 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Who We Serve – Signal Thread</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="st-wrapper">
-    <header class="st-header">
-      <div class="st-container st-header-inner">
-        <a class="brand" href="index.html" aria-label="Signal Thread Home">
-          <div class="mark" aria-hidden="true"></div>
-          <div><span>Signal Thread</span><small>Public safety analytics</small></div>
-        </a>
 
-        <nav class="nav" aria-label="Primary navigation">
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="how-it-works.html">How It Works</a>
-          <a class="active" href="who-we-serve.html">Who We Serve</a>
-          <a href="sample-work.html">Sample Work</a>
-          <a href="about.html">About</a>
-          <a href="data-security.html">Data Security</a>
-          <a href="contact.html">Contact</a>
-        </nav>
+<div class="st-wrapper">
+
+  <header class="st-header">
+    <div class="st-header-inner">
+      <div class="st-brand">Signal Thread</div>
+      <nav class="st-nav">
+        <a href="/">Home</a>
+        <a href="/services.html">Services</a>
+        <a href="/how-it-works.html">How It Works</a>
+        <a href="/who-we-serve.html" class="active">Who We Serve</a>
+        <a href="/sample-work.html">Sample Work</a>
+        <a href="/about.html">About</a>
+        <a href="/data-security.html">Data Security</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="st-section">
+    <div class="st-surface">
+      <h1>Who We Serve</h1>
+
+      <div class="st-grid">
+        <div class="st-card">Fire Departments</div>
+        <div class="st-card">EMS</div>
+        <div class="st-card">Police</div>
+        <div class="st-card">Townships & Local Government</div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main>
-      <section class="section">
-        <div class="st-container">
-          <div class="section-head">
-            <h1>Who We Serve</h1>
-            <div class="faint">Governance-aware, operations-literate analysis</div>
-          </div>
+  <footer class="st-footer">
+    <div class="st-footer-inner">
+      <span>© Signal Thread</span>
+    </div>
+  </footer>
 
-          <div class="grid-2">
-            <div class="card pad">
-              <h2>Townships & Villages</h2>
-              <p>
-                We understand board dynamics, budget constraints, and the need for defensible, plain-language reporting.
-                Outputs are designed for packets, committees, and public meetings.
-              </p>
-              <ul class="list">
-                <li>Budget cycle support and scenario comparisons</li>
-                <li>Clarity for trustees and administrators</li>
-                <li>Documentation that holds up under scrutiny</li>
-              </ul>
-            </div>
-
-            <div class="card pad">
-              <h2>Fire Departments</h2>
-              <p>
-                Paid, paid-on-call, and combination departments. We focus on staffing, coverage, and operational demand
-                without requiring new platforms.
-              </p>
-              <ul class="list">
-                <li>Staffing curves and peak demand windows</li>
-                <li>Workload and response pattern analysis</li>
-                <li>Board-ready visuals</li>
-              </ul>
-            </div>
-
-            <div class="card pad">
-              <h2>EMS / Fire-Based EMS</h2>
-              <p>
-                Demand modeling and coverage questions are different in EMS. We account for call volume, unit-hours,
-                peak overlaps, and the real constraints your crews feel.
-              </p>
-              <ul class="list">
-                <li>Unit utilization and call overlap patterns</li>
-                <li>Coverage impacts of scheduling changes</li>
-                <li>Plain-language recommendations</li>
-              </ul>
-            </div>
-
-            <div class="card pad">
-              <h2>Joint Authorities & Mutual Aid Regions</h2>
-              <p>
-                When multiple entities share service delivery, governance matters. We build analysis that respects
-                operational reality and shared decision-making.
-              </p>
-              <ul class="list">
-                <li>Cross-agency comparisons (apples-to-apples)</li>
-                <li>Regional demand patterns and shared coverage stress</li>
-                <li>Outputs usable by multiple boards</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="actions">
-            <a class="btn primary" href="contact.html">Request a Consultation</a>
-            <a class="btn" href="services.html">View Services</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="st-container footer-inner">
-        <div>© <span id="y"></span> Signal Thread</div>
-        <div><a href="contact.html">Contact</a></div>
-      </div>
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+</div>
 </body>
 </html>
